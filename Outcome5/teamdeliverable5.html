@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Explore Minneapolis Parks</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Explore Minneapolis Parks">
+        <meta name="keywords" content="Minneapolis, park, Minnehaha Falls, Loring Park, Sculpture Garden, Lake Calhoun, River Road Trail">
+        <meta name="author" content="Charlie Zmuda, Jesse Valley, Ma Chang, Chad Lofgren, Jordan Neuman">
+        <link href="css/park.css" rel="stylesheet" type="text/css">
+        <link href="lightbox2-master/src/css/lightbox.css" rel="stylesheet">
+        <link rel="stylesheet" type="application/javascript" href="js/park.js">
+        <style type="text/css">
+            @font-face{
+                font-family: montreg;
+                src: url(montreg.otf)
+            }
+        </style>
+	</head>
+	<body>
+        <div id="wrapper">
+            <header id="sitetitle">
+                <a href="teamdeliverable5.html"><img src="images/mpls.png" alt="MPLS LOGO" title="MPLS LOGO" width="185" height="98" style="float: left; margin-left: 50px; margin-top: 2px;"></a>
+                <a href="teamdeliverable5.html"><h1 style="text-align: center;">Explore Minneapolis Parks</h1></a>
+			</header><!--End of sitetitle-->
+			<div id="search">
+				<form method="get" action="http://www.google.com/search">
+                    <input type="text" name="q" size="43" maxlength="255"/>
+                    <input type="submit" value="Search"/>   
+				</form>
+			</div><!--End of search-->
+			<div id="banner">
+                <img src="images/mpls_banner.jpg" alt="Minneapolis Skyline" width="1250" height="80" title="Minneapolis Skyline">
+			</div><!--End of banner-->
+			<div id="contact">
+				<ul id="info">
+					<li class="listructure"><a href="aboutus.html"><strong>ABOUT US</strong></a></li>
+					<li class="listructure"><a href="contactus.html"><strong>CONTACT US</strong></a></li>
+				</ul>
+			</div><!--End of contact-->
+			<article>
+				<div id="bigcontainer">
+				    <nav id="parkscontainer">
+				        <ul id="parkslinks">
+				            <li class="listructure"><a href="loringpark.html" >Loring Park</a></li>
+				            <li class="listructure"><a href="sculpturegarden.html">Sculpture Garden</a></li>
+                            <li class="listructure"><a href="lakecalhoun.html">Lake Calhoun</a></li>
+                            <li class="listructure"><a href="minnehahafalls.html">Minnehaha Falls</a></li>
+                            <li class="listructure"><a href="riverroadtrail.html">River Road Trail</a></li>
+				        </ul>
+				    </nav><!--End of Parks Container-->
+                    <section class="article" style="margin-left: 60px;">
+                        <div id="container">
+	                       <div class="photobanner">
+                               <img class="first" src="images/calhoun.jpg" alt="Lake Calhoun" title="Lake Calhoun" width="620" height="310" />
+                               <img src="images/harriet.jpg" alt="Harriet" title="Harriet" width="620" height="310" />
+                               <img src="images/lake.jpg" alt="Lake Calhoun" title="Lake" width="620" height="310"/>
+                               <img src="images/walkerfront.jpg" alt="Walker Art Center" title="Walker Art Center" width="620" height="310"/>
+                               <img src="images/render.jpg" alt="Minnehaha Frozen" title="Minnehaha Frozen" width="620" height="310"/>
+                               <img src="images/fountain.jpg" alt="Loring park fountain" title="Loring Park" width="620" height="310"/>
+                               <img src="images/garden.jpg" alt="Garden" title="Garden" width="620" height="310"/>
+                               <img src="images/night.jpg" alt="MPLS at night" title="MPLS at Night" width="620" height="310"/>
+                               <img src="images/coldfalls.jpg" alt="Minnehaha Frozen" title="Minnehaha Frozen" width="620" height="310"/>
+                               <img src="images/spoon.jpg" alt="Minnehaha Frozen" title="Spoon" width="620" height="310"/>
+                            </div>
+                        </div><!--End of rotating banner-->
+                        <section class="article">
+                            <h2 style="text-align: center;">Welcome!</h2>
+                            <p><em>Explore Minneapolis Parks</em> is the best go-to website for people wondering what the parks around Minneapolis have to offer. It is our hope that in the future when you are thinking of what park you would like to visit on any given day, you would go to this website first! Here we show some of the great parks Minneapolis has to offer. Whether you're looking for a park to bring your dog, or if you're thinking about walking around and seeing the art. Be sure to explore all the pages above!</p>
+                        </section>
+                    </section>
+				</div><!--End of big container-->
+			</article>
+			<aside>
+				<div id="smallcontainer">
+					<div id="map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11247.226318354056!2d-93.28049132189803!3d44.97100002630345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sminneapolice+parks!5e0!3m2!1sen!2sus!4v1459351941201" width="600" height="450"  style="border:0" allowfullscreen></iframe>
+					</div><!--map-->
+                    <div id="ad">
+                        <img src="images/reiad.jpg" height="325" width="500" alt="REI ad" title="REI ad">
+                    </div><!--ad-->
+					<div id="comments">
+                        <iframe src="java.html" width="485" height="337" style="margin-left: 20px; margin-top: 5px; border: none;"></iframe>
+					</div><!--End of comments-->
+				</div>
+			</aside>
+            <footer id="footer">
+                <p class="bottomtext">&copy; Charles Zmuda | Jesse Valley | Ma Chang | Chad Lofgren | Jordan Neumann</p>
+<!--We made the following changes to progressively enhance our website:
+1). We noticed that our navigation could use some help, so we created a site tree on the left side of the page for people to use when they were exploring the parks. As a part of that, we also added a simple jquery script that would underline the current page that was being viewed so that people know where they are within the site. This also makes it easier for people to navigate to the other parks.
+2). We fixed some issues with line height and spacing on our site. We also consolidated the css into one style sheet. Overall, this made the info easier to read and kept all of the pages very consistant visually.
+3). We resized all of the gallery images so that they would be larger in the lightbox when viewed. Previously, some images were really small and not as pleasing to view.
+4). We fixed the overflow of the REI advertisement and the article of the parks that had too much info for the height of our page. Both of these fixes improve the overall viewer enjoyment of the site, and lessen the confusion when the copy overflowed beyond the footer.
+5). We made the site more interactive by adding a JavaScript poll on the homepage that allows visitors to select the next park that we will feature on the website. It even includes a message to only select one park if the visitor picks no parks or more than one park and hits submit.-->
+			</footer>
+		</div><!--End of id distribute name wrapper-->
+        <script src="lightbox2-master/dist/js/lightbox-plus-jquery.min.js"></script>
+	</body>
+</html>

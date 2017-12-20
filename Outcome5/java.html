@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Pick a Park</title>
+            <meta charset="UTF-8">
+            <meta name="description" content="Explore Minneapolis Parks">
+            <meta name="keywords" content="Minneapolis, park, Minnehaha Falls, Loring Park, Sculpture Garden, Lake Calhoun, River Road Trail">
+            <meta name="author" content="Charlie Zmuda, Jesse Valley, Ma Chang, Chad Lofgren, Jordan Neuman">
+            <link href="css/park.css" rel="stylesheet" type="text/css">
+            <link href="lightbox2-master/src/css/lightbox.css" rel="stylesheet">
+            <link rel="stylesheet" type="application/javascript" href="js/park.js">
+            <style type="text/css">
+                @font-face{
+                    font-family: montreg;
+                    src: url(montreg.otf)
+                }
+               * {
+               -moz-box-sizing: border-box;
+               -webkit-box-sizing: border-box;
+               box-sizing: border-box;
+                }
+
+                /* reset rules */
+                html, body, div, span, applet, object, iframe,
+                h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+                a, abbr, acronym, address, big, cite, code,
+                del, dfn, em, img, ins, kbd, q, s, samp,
+                small, strike, strong, sub, sup, tt, var,
+                b, u, i, center,
+                dl, dt, dd, ol, ul, li,
+                fieldset, form, label, legend,
+                table, caption, tbody, tfoot, thead, tr, th, td,
+                article, aside, canvas, details, embed, 
+                figure, figcaption, footer, header, hgroup, 
+                menu, nav, output, ruby, section, summary,
+                time, mark, audio, video {
+                   margin: 0;
+                   padding: 0;
+                   border: 0;
+                   font-size: 100%;
+                   font: inherit;
+                   vertical-align: baseline;
+                }
+
+                /* HTML5 display-role reset for older browsers */
+                article, aside, details, figcaption, figure, 
+                footer, header, hgroup, menu, nav, section {
+                   display: block;
+                }
+
+                body {
+                   line-height: 1;
+                   width: 485px;
+                   background: none;
+                   margin: 0 auto; 
+                }
+
+                ol, ul {
+                   list-style: none;
+                }
+
+                /* page header */
+                header {
+                   background: #cce6ff;
+                   width: 100%;
+                   font-size: 48px;
+                   text-align: center;
+                   line-height: 1.5em;
+                }
+
+                /* main content */
+                article {
+                   width: 465px;
+                   height: 250px;
+                   text-align: left;
+                   background: #cce6ff;
+                }
+
+                article h2 {
+                   font-weight: bold;
+                   font-size: 24px;
+                   padding: 10px;
+                }
+
+                /* form */
+                form {
+                   margin: 0 auto;
+                }
+
+                input {
+                   float: left;
+                   clear: left;
+                   margin: 10px;
+                }
+
+                label {
+                   float: left;
+                   font-size: 1.4em;
+                }
+       </style>
+    </head>
+        <body>
+           <header>
+              <h1>
+                Pick a Park
+              </h1>
+           </header>
+           <article>
+              <h2>Pick the next park we should feature:</h2>
+              <form>
+                 <input type="checkbox" id="item1" value="1" />
+                 <label for="item1">Webber Park</label>
+                 <input type="checkbox" id="item2" value="1" />
+                 <label for="item2">Stewart Park</label>
+                 <input type="checkbox" id="item3" value="1" />
+                 <label for="item3">Sibley Park</label>
+                 <input type="checkbox" id="item4" value="1" />
+                 <label for="item4">Phillips Park</label>
+                 <input type="checkbox" id="item5" value="" />
+                 <label for="item5">Morrs Park</label>
+                 <input type="submit" id="submit" value="Submit" />
+              </form>
+           </article>
+           <script src="js/park.js"></script>
+        </body>
+    </html>
